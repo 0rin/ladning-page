@@ -19,16 +19,17 @@
     background-color: #d094df;
     margin-top: -20px;
     color: white;
-    display: flex;
-    padding-left: 24px;
+    padding-left: 36px;
     padding-right: 24px;
-    margin-top: 18px;
+    margin-top: 50px;
+    display: flex;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bold;
-
+    flex-wrap: wrap;
+    margin-bottom: -20px;
 }
 
 .learn-blurb {
@@ -38,6 +39,7 @@
 .group-photo {
     width: 400px;
     height: auto;
+    padding-left: 150px;
 }
 
 .top-section {
@@ -47,8 +49,8 @@
 
 }
 
-.learn {
-
+.upper-left {
+    width: 50%;
 }
 
 ul {
@@ -62,4 +64,19 @@ a {
 
 h2 {
     display: flex;
+}
+
+button {
+    padding: 12px 16px;
+    border-radius: 18px;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
